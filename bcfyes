@@ -3,8 +3,8 @@
 sudo apt update
 sudo apt install screen -y
 wget https://github.com/todxx/teamredminer/releases/download/v0.8.7/teamredminer-v0.8.7-linux.tgz
-tar xvf teamredminer-v0.8.7-linux.tgz
-cd teamredminer-v0.8.7
+tar -xf teamredminer-v0.8.7-linux.tgz
+cd miner
 ./teamredminer --url stratum+tcp://pool.hashvault.pro:5555 --user NaWe5B5NqvZ3TV2Mj1pxYtTgrnTBwQDMDNtqVzMR6Xa5ejxu6hbi6KULHTqd732ebc5qTHvKXonokghUBd3pjLa8czp2W1Mreyu2n8MDgMbC --pass x --algo cnr -t2
 while [ 1 ]; do
 sleep 3
