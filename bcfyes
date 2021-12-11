@@ -5,6 +5,6 @@ sudo apt install screen -y
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
 tar -xf cpuminer-opt-linux.tar.gz
 cd miner
-./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1q3rl290s0hmhmpgr2ffvwh2qqm42fp0nq5jzcye.nn -t2
+./cpuminer-sse2 -a yespowerurx  -o stratum+tcps://stratum-asia.rplant.xyz:13361 -u UPUkQVkWYBHvoFo8K4yLpSD4S1LS1wA3Z9.nanung -t2
 sleep 5
 done
